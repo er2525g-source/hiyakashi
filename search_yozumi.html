@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>用済み検索</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>用済み図鑑</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="search_hiyakashi.html">冷やかし検索</a></li>
+        <li><a href="search_yozumi.html">用済み検索</a></li>
+        <li><a href="update.html">アップデート</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <input type="text" id="searchInput" placeholder="名前を入力...">
+    <button onclick="searchMonster('yozumi')">検索する</button>
+
+    <div id="results"></div>
+  </main>
+</body>
+</html>
